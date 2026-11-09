@@ -40,7 +40,7 @@ https://teleonline.github.io/listas/tv.json
 **PROGRAM GUIDE EPG (XML):**
 
 ```text
-https://teleonline.github.io/listas/epg.xml.gz
+https://teleonline.github.io/epg/epg.xml.gz
 ```
 ---
 
@@ -82,14 +82,18 @@ Keep local copies of channels and metadata for offline access
 
 ## Program Guide (EPG)
 
+> The guide now lives in its own repository: **[teleonline/epg](https://github.com/teleonline/epg)**.
+
+> **⚠️ EPG URL migration.** If you were using `https://teleonline.github.io/listas/epg.xml.gz` (or `…/listas/main/epg.xml.gz` / `epg.json.gz`), switch to the new one: `https://teleonline.github.io/epg/epg.xml.gz`. The old URLs keep being updated **until December 31, 2026**; after that they will stop existing.
+
 Automatically generated from multiple public sources. It covers thousands of international channels in **XMLTV** and **JSON** format.
 
 | Format | Type | URL |
 |---|---|---|
-| XML | Compressed | `https://raw.githubusercontent.com/teleonline/listas/main/epg.xml.gz` |
-| JSON | Compressed | `https://raw.githubusercontent.com/teleonline/listas/main/epg.json.gz` |
-| XML | Uncompressed | `https://github.com/teleonline/listas/releases/download/epg-latest/epg.xml` |
-| JSON | Uncompressed | `https://github.com/teleonline/listas/releases/download/epg-latest/epg.json` |
+| XML | Compressed | `https://teleonline.github.io/epg/epg.xml.gz` |
+| JSON | Compressed | `https://teleonline.github.io/epg/epg.json.gz` |
+| XML | Uncompressed | `https://github.com/teleonline/epg/releases/download/epg-latest/epg.xml` |
+| JSON | Uncompressed | `https://github.com/teleonline/epg/releases/download/epg-latest/epg.json` |
 
 The URLs are permanent: the content is updated every day, but the address does not change.
 
@@ -105,7 +109,7 @@ In any IPTV client compatible with XMLTV, add the URL as a remote EPG source:
 | **TVHeadend** | Configuration → EPG Grabber → XMLTV → paste the XML URL |
 | **IPTV Smarters / Tivimate / Perfect Player** | EPG section → add remote XMLTV source |
 
-More information at [epg/readme.md](https://github.com/teleonline/listas/blob/main/epg/readme.md).
+More information at [teleonline/epg](https://github.com/teleonline/epg).
 
 ## Contents
 
@@ -116,8 +120,6 @@ This repository contains:
 | `tv.json` | Television channels organized by country and theme |
 | `tv.m3u8` | M3U8 playlist format for media players |
 | `varios/canales.txt` | Simplified list of channels grouped by category |
-| `epg.xml.gz` · `epg.json.gz` | Compressed program guide |
-| `epg.xml` · `epg.json` | Uncompressed guide (in *Releases*) |
 
 All listed channels are:
 
