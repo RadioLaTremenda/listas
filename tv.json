@@ -409,6 +409,20 @@
                             "epg_id": "",
                             "country": "🇪🇸 España",
                             "nivel": "1"
+                        },
+                        {
+                            "name": "La Séptima",
+                            "web": "https://x.com/la_septima_tv",
+                            "logo": "https://teleonline.org/wp-content/uploads/2019/02/la-septima-tv-blanco.png",
+                            "nivel": "2",
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://www.youtube.com/@La_Septima_TV"
+                                }
+                            ],
+                            "epg_id": "",
+                            "country": "🇪🇸 España"
                         }
                     ]
                 },
