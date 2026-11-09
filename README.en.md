@@ -84,7 +84,7 @@ Keep local copies of channels and metadata for offline access
 
 > The guide now lives in its own repository: **[teleonline/epg](https://github.com/teleonline/epg)**.
 
-> **⚠️ EPG URL migration.** If you were using `https://teleonline.github.io/listas/epg.xml.gz` (or `…/listas/main/epg.xml.gz` / `epg.json.gz`), switch to the new one: `https://teleonline.github.io/epg/epg.xml.gz`. The old URLs keep being updated **until December 31, 2026**; after that they will stop existing.
+> **⚠️ EPG URL migration.** If you were using `https://teleonline.github.io/listas/epg.xml.gz` (or `…/listas/main/epg.xml.gz` / `epg.json.gz`), switch to the new one: `https://teleonline.github.io/epg/epg.xml.gz`. The old URLs keep being updated **until November 8, 2026**; after that they will stop existing.
 
 Automatically generated from multiple public sources. It covers thousands of international channels in **XMLTV** and **JSON** format.
 
