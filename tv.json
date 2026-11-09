@@ -12717,6 +12717,19 @@
                             "medio_autorizacion": "terminos_plataformas",
                             "alcance_autorizacion": "Embed oficial vía términos de uso de Twitch, YouTube (autorización estructural, no individual). Ver aviso legal, apartado 2.2(a).",
                             "fecha_autorizacion": "2026-09-23"
+                        },
+                        {
+                            "name": "La Tremenda TV Perú",
+                            "web": "https://latremenda.pe/",
+                            "logo": "https://i.pinimg.com/736x/46/24/d3/4624d356bfdaa6254c2597f686108841.jpg",
+                            "epg_id": "",
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://iptv.latremenda.pe/LaTremendaTv/tracks-v1a1/mono.m3u8"
+                                }
+                            ],
+                            "nivel": "1"                       
                         }
                     ]
                 }
